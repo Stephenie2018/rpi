@@ -30,7 +30,7 @@ int main() {
                                      : text("STANDBY") | color(Color::Red);
 
         return vbox({
-            text(" RASPBERRY PI CONTROL CENTER ") | bold | center | color(Color::Cyan),
+            text(" PinkLady Digital FM 88/108MHz transmitter") | bold | center | color(Color::Cyan),
             separator(),
             hbox({
                 vbox({
