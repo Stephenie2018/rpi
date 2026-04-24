@@ -30,7 +30,11 @@ int main() {
                                      : text("STANDBY") | color(Color::Red);
 
         return vbox({
-            text(" PinkLady Digital FM 88/108MHz transmitter") | bold | center | color(Color::Cyan),
+text(" PinkLady Digital FM 88/108MHz transmitter") 
+    | bold 
+    | center 
+    | color(Color::White)              // Witte letters
+    | bgcolor(Color::RGB(255, 20, 147)), // Deep Pink achtergrond            
             separator(),
             hbox({
                 vbox({
